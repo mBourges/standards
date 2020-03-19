@@ -73,9 +73,9 @@ export default () => (
           handler.afterUpdate(so, Trigger.newMap.get(so.Id));
         }
       }
-    }
 
-    handler.finallyAfter();
+      handler.finallyAfter();
+    }
   }
 
   private static TriggerHandler getHandler(Type t) {
