@@ -44,6 +44,7 @@ export default () => {
             <div className="navbar-link is-arrowless">Documentation</div>
             <div className="navbar-dropdown">{pages}</div>
           </div>
+          <Link to="/account" className="navbar-item">My Account</Link>
         </div>
       </div>
     </nav>
